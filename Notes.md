@@ -16,3 +16,10 @@ I have recently gotten an interview for Testing and I have decided to keep my no
 ### Unit Tests
 - Test a single "unit" of code such as a function, method or class in **complete isolation**
 - They are fast (can run thousands in seconds), Reliable (With no external dependencies), and precise.
+
+### Integration Tests
+- Verify that different components worth together properly
+- Examples include: testing that API endpoint correctly reads and writes to the database
+- tests that **frontend** communicates properly with **backend**
+- These tests catch bugs that unit tests miss which are usually bugs that appear when components interact
+
